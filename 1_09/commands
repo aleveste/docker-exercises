@@ -1,1 +1,1 @@
-docker run -d -v "${PWD}\service.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+docker run -d -v ./service.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
